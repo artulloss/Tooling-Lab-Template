@@ -7,7 +7,8 @@
     "test": "jest",
     "test:watch": "jest --watchAll",
     "postinstall": "node .scripts/badge.js",
-    "lint": "eslint resources/scripts/**.js"
+    "lint": "eslint resources/scripts/**.js",
+    "build": "webpack"
   },
   "author": "Yahya Gilany <gilanyym@ucmail.uc.edu>",
   "license": "UNLICENSED",
@@ -26,6 +27,8 @@
     "lodash": "^4.17.15",
     "prettier": "^2.3.0",
     "regenerator-runtime": "^0.13.5",
-    "simple-git": "^2.5.0"
+    "simple-git": "^2.5.0",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
   }
 }
